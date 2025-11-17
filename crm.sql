@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2025 at 07:21 AM
+-- Generation Time: Nov 17, 2025 at 05:34 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -89,7 +89,22 @@ INSERT INTO `leads` (`id`, `name`, `phone`, `alternate_phone`, `whatsapp_number`
 (7, 'John Doe', '9876543210', NULL, NULL, 'john@example.com', NULL, NULL, NULL, NULL, 'Interested in Product X', NULL, NULL, NULL, NULL, NULL, 1, 'Landing Page', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', '', 'new', NULL, NULL, NULL, NULL, '2025-10-23 10:30:45', NULL),
 (8, 'John Doe', '9876543210', '', '', 'john@example.com', 'Mahathma Gandhi Road', 'Bengaluru', 'Karnataka', '560025', 'Interested in Product X', 'Artek', '', 'TVM', 300.00, 400.00, 1, 'Landing Page', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'high', 'new', '0000-00-00 00:00:00', NULL, NULL, '', '2025-10-23 10:35:04', '2025-11-04 01:03:11'),
 (12, 'New Lead Test', '9999999999', '', '', 'test@gmail.com', '', '', '', '', 'Testing', '', '', '', 0.00, 0.00, 1, '', NULL, NULL, NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', '0000-00-00 00:00:00', NULL, NULL, '', '2025-11-04 01:17:11', NULL),
-(13, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-04 01:39:07', NULL);
+(13, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-04 01:39:07', NULL),
+(14, 'test final', '09894298328', '', '', 'vigneshsg555@gmail.com', 'Thazhavilaveedu, Kalluvettankuzhi, Kollemcode', 'Kollemcode', 'Tamilnadu', '629160', 'test', '', '', '', 0.00, 0.00, 2, '', NULL, NULL, NULL, NULL, NULL, NULL, 6, 'follow_up', 'medium', 'negotiation', '0000-00-00 00:00:00', NULL, NULL, '', '2025-11-13 12:25:35', NULL),
+(26, 'Vignesh SG', '09894298328', '', '', 'vigneshsg555@gmail.com', 'Thazhavilaveedu, Kalluvettankuzhi, Kollemcode', 'Kollemcode', 'Tamilnadu', '629160', 'test', 'tese', '', '', 1.00, 1.00, 1, 'test', NULL, NULL, NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', '2025-11-14 00:00:00', NULL, NULL, '', '2025-11-14 07:37:31', NULL),
+(27, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:00:07', NULL),
+(28, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:00:26', NULL),
+(29, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:01:20', NULL),
+(30, 'Vignesh SG', '09894298328', '', '', 'vigneshsg555@gmail.com', 'Thazhavilaveedu, Kalluvettankuzhi, Kollemcode', 'Kollemcode', 'Tamilnadu', '629160', 'test', '', '', 'test', 1.00, 1.00, 1, '1', NULL, NULL, NULL, NULL, NULL, NULL, 6, 'follow_up', 'medium', 'new', '2025-11-28 00:00:00', NULL, NULL, '', '2025-11-16 04:04:45', NULL),
+(31, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:07:04', NULL),
+(32, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:07:12', NULL),
+(33, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:07:18', NULL),
+(34, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 04:08:06', NULL),
+(35, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 08:16:38', NULL),
+(36, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 08:24:59', NULL),
+(37, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 08:25:05', NULL),
+(38, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 4, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 08:25:53', NULL),
+(39, 'Suba Sree', '9876543210', NULL, NULL, 'sub@example.com', NULL, NULL, NULL, NULL, 'Interested in 2BHK apartment', NULL, NULL, NULL, NULL, NULL, 1, 'Google Ads', 4, 'alpha.com', NULL, NULL, NULL, NULL, 6, 'new', 'medium', 'new', NULL, NULL, NULL, NULL, '2025-11-16 08:25:59', NULL);
 
 -- --------------------------------------------------------
 
@@ -117,7 +132,13 @@ INSERT INTO `lead_assignments` (`id`, `lead_id`, `agent_id`, `assigned_by`, `ass
 (4, 7, 4, NULL, '2025-10-23 10:30:45', 'Round-Robin'),
 (5, 8, 4, NULL, '2025-10-23 10:35:04', 'Round-Robin'),
 (6, 12, 4, 5, '2025-11-04 05:47:11', 'Manual assignment from admin panel'),
-(7, 13, 6, NULL, '2025-11-04 01:39:07', 'Round-Robin');
+(7, 13, 6, NULL, '2025-11-04 01:39:07', 'Round-Robin'),
+(8, 14, 6, 5, '2025-11-13 16:55:35', 'Manual assignment from admin panel'),
+(9, 18, 6, 5, '2025-11-14 05:20:50', 'Manual assignment from admin panel'),
+(10, 20, 6, 5, '2025-11-14 05:24:45', 'Manual assignment from admin panel'),
+(11, 26, 6, 5, '2025-11-14 12:07:31', 'Manual assignment from admin panel'),
+(12, 27, 4, NULL, '2025-11-16 04:00:07', 'Round-Robin'),
+(24, 39, 6, NULL, '2025-11-16 08:25:59', 'Round-Robin');
 
 -- --------------------------------------------------------
 
@@ -138,6 +159,25 @@ CREATE TABLE `lead_sources` (
 INSERT INTO `lead_sources` (`id`, `name`, `created_at`) VALUES
 (1, 'Google', '2025-10-23 08:44:46'),
 (2, 'Meta', '2025-11-04 06:19:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `options`
+--
+
+CREATE TABLE `options` (
+  `id` int(11) NOT NULL,
+  `options_name` varchar(20) NOT NULL,
+  `options_value` varchar(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `options`
+--
+
+INSERT INTO `options` (`id`, `options_name`, `options_value`) VALUES
+(1, 'round_robin', 'on');
 
 -- --------------------------------------------------------
 
@@ -180,8 +220,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `status`, `created_at`, `updated_at`) VALUES
 (4, 'Agent User Test', 'agent@example.com', '$2y$10$1aaApL/hfP4.uxAVCX4tdOsOI/Qcf6CMYVdR5QxRe.Auv.y61th4e', 'agent', 1, '2025-10-23 06:38:34', '2025-10-23 06:57:00'),
-(5, 'Anish R', 'anish.raju@analysedigital.com', '$2y$10$mjfnJ/4zD5a5YiobLXkryu8EbfNpsRCtX/ID8iR2hOr592/Ik4q5i', 'admin', 1, '2025-10-23 07:08:07', NULL),
-(6, 'Vignesh', 'vignesh.sg@analysedigital.com', '$2y$10$0/ZiC.fa6BvohLOgZ/NrheQ/4txFb65Ciaa4LRkQGFhQgexwZvTPm', 'agent', 1, '2025-11-04 06:08:16', NULL);
+(6, 'Vignesh', 'vignesh.sg@analysedigital.com', '$2y$10$0/ZiC.fa6BvohLOgZ/NrheQ/4txFb65Ciaa4LRkQGFhQgexwZvTPm', 'agent', 1, '2025-11-04 06:08:16', NULL),
+(13, 'admin', 'vigneshsg555@gmail.com', '$2y$10$f5ScWmztjWV45b3kfW.cRemBl0G1lGRBBjxJgL/R23fQk7HZtcPUu', 'admin', 1, '2025-11-16 05:48:52', '2025-11-16 05:49:04'),
+(14, 'Anish R', 'anish.raju@analysedigital.com', '$2y$10$nfikvag/sFyUn.FlZdQy2eSnJBkCwSiGQCg2W6UkSHyUyOR9QFBwu', 'admin', 1, '2025-11-17 04:11:57', '2025-11-17 04:12:02');
 
 -- --------------------------------------------------------
 
@@ -247,6 +288,12 @@ ALTER TABLE `lead_sources`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `options`
+--
+ALTER TABLE `options`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `settings`
 --
 ALTER TABLE `settings`
@@ -280,13 +327,13 @@ ALTER TABLE `agent_profiles`
 -- AUTO_INCREMENT for table `leads`
 --
 ALTER TABLE `leads`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `lead_assignments`
 --
 ALTER TABLE `lead_assignments`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `lead_sources`
@@ -295,10 +342,16 @@ ALTER TABLE `lead_sources`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+-- AUTO_INCREMENT for table `options`
+--
+ALTER TABLE `options`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `vendors`
